@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>a</title>
+    <style>
+        .flex-container{
+            padding: 10px;
+            border: 2px solid black;
+            margin-bottom: 5px;
+            max-width: 320px;
+            max-height: 240px;
+            display:flex;
+        }
+
+        .item {
+            margin: 5px;
+            height: 50px;
+            width: 70px;
+            line-height: 50px;
+            font-size: 20px;
+            text-align: center;
+            color: black;
+            list-style: none;
+        }
+
+/* COLORS */
+
+        .green{
+            background-color: green;
+        }
+
+        .blue{
+            background-color: blue;
+        }
+
+        .red{
+            background-color: red;
+        }
+
+/* ORIENTATIONS */
+
+        .row-rev{
+            flex-direction: row-reverse;
+        }
+
+        .row-column{
+            float:left;
+            flex-direction: column;
+        }
+
+/* LINE BREAK */
+
+        .wrap{
+            flex-wrap: wrap;
+        }
+
+        .wrap-rev{
+            flex-wrap: wrap-reverse;
+        }
+
+    </style>
+</head>
+<!-- ITEMS -->
+
+<body>
+    
+    <ul class="flex-container wrap">
+        <li class="item green">item 1</li>
+        <li class="item green">item 2</li>
+        <li class="item green">item 3</li>
+        <li class="item green">item 4</li>
+        <li class="item green">item 5</li>
+    </ul>
+
+    <ul class="flex-container row-rev wrap-rev"> 
+        <li class="item blue">item 1</li>
+        <li class="item blue">item 2</li>
+        <li class="item blue">item 3</li>
+        <li class="item blue">item 4</li>
+        <li class="item blue">item 5</li>
+    </ul>
+
+    <ul class="flex-container row-column wrap">
+        <li class="item red">item 1</li>
+        <li class="item red">item 2</li>
+        <li class="item red">item 3</li>
+        <li class="item red">item 4</li>
+        <li class="item red">item 5</li>
+    </ul>
+</body>
