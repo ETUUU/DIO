@@ -1,0 +1,665 @@
+
+/* VISUAL DOS LINKS */
+
+    a:link {
+        font-family: arial;
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+    }
+
+    a:visited{
+        font-family: arial;
+        font-size: 18px;
+        color: white;
+    } 
+
+/* CORPO */
+
+    body{
+        margin: auto;
+        max-width: 1366px;
+    }
+
+/* VISUAL DO CABEÇALHO */
+
+    .top-container {
+        display: flex;
+        border: 3px solid blue;
+        background-color: #122A57;
+        margin: auto;
+        margin-bottom: 10px;
+        height: 120px;
+        padding-right: 40px ;
+    }
+
+    .top-container h1 {
+        display: flex;
+        font-size: 48px;
+        border: 1px solid white;
+        border-radius: 20px 0px 20px 0px;
+        padding: 2px;
+        font-family: courier new;
+        color: white;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .top-container ul {
+
+        display: flex;
+        padding: 0;
+        margin: auto;
+        height: 75%;
+        max-width: 50%;
+        margin-right: 20px;
+        list-style: none;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-content: space-between;
+    }
+
+        /* OPÇÕES CABEÇALHO */
+
+        .disc1 {
+            display: flex;
+            font-style: normal;
+            max-width: 100%;
+            padding: 2px;
+            margin: 6px;
+            align-items: flex-start;
+        }
+
+        .disc2 {
+            display: flex;
+            font-style: normal;
+            max-width: 100%;
+            padding: 2px;
+            margin: 6px;
+            align-items: center;
+        }
+
+        .disc3 {
+            display: flex;
+            font-style: normal;
+            max-width: 100%;
+            padding: 2px;
+            margin: 6px;
+            align-items: flex-end;
+        }
+
+
+/* VISUAL DO MEIO */
+
+    .container-meio{
+        display: flex;
+        width: 100%;
+        padding: 0px;
+        margin: 0;
+        justify-content: center;
+
+    }
+
+    .tit-meio{
+        display: flex;
+        color: #122A57;
+        margin: 0;
+        width: 100%;
+        font-size: 7em;
+        justify-content: flex-start;
+        align-items: flex-end;
+
+    }
+
+    .container-meio .flex{
+        display: flex;
+        width: 35%;
+        font-size: 60%;
+        font-family:impact;
+        flex-flow: column nowrap;
+        order: 1;
+        justify-content: center;    
+    } 
+
+    .container-meio .mel-serv{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container-meio .saiba-mais{
+        display: flex;
+        width: 70%;
+        font-size: 1.5em;
+        font-weight: bold;
+        border: 2px solid black;
+        background-color: #122A57;
+        border-radius: 45px;
+        padding: 0px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        justify-content: center;
+    }
+
+    .container-meio img{
+        display: flex;
+        width: 40%;
+        order: 2;
+    }
+
+        /* SEGUNDA PARTE INFO DO MEIO */
+
+    .container-meio2{
+
+        margin-top: 5px;
+        margin-bottom: 15px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+    }
+
+    .container-meio2 img{
+        display: flex;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+
+    }
+
+    .container-meio2 .qm-somos{
+        display: flex;
+        width: 40%;
+        flex-flow: column wrap;
+
+    }
+
+    .container-meio2 .quem-somos{
+        display: flex;
+        font-size: 2em;
+        color: #122A57;
+        font-family: arial;
+        font-weight: bold;
+        border-left: 4px solid #122A57;
+        padding-left: 4px;
+        margin-bottom: 0;
+
+    }
+
+    .container-meio2 p{
+        display: flex;
+        text-align: justify;
+        color:#122A57;
+        font-size: 1em;
+        font-family: verdana;
+
+    }
+
+    /* PARTE DO FIM */
+
+    .container-final{
+        display: flex;
+        min-height: 30em;
+        max-width: 100%;
+        margin: auto;
+        margin-bottom: 100px;
+        background-color: #122A57;
+        padding: 30px;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+        .container-final .icone1 {
+            display: flex;
+            margin: auto;
+            margin-bottom: 5%;
+            margin-top: 5%;
+            flex-flow: column ;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+            .container-final .serviços{
+                display: flex;
+                width: 100%;
+                margin: auto;
+                padding: auto;
+                height: auto;
+                font-size: 2.6em;
+                color: white;
+                font-family:cursive;
+                font-weight: bold;
+                font-style: italic;
+
+            }
+
+            .container-final .icone1 p{
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                font-family:arial;
+                font-weight: bold;
+                color: white;
+                font-size: 1.3em;
+
+            }
+
+            .container-final .icone1 .compre-1 {
+                display: flex;
+                min-width: 100%;
+
+            }
+
+            .container-final .icone1 a {
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                color: #122A57;
+                background-color: white;
+                padding: 0.5em;
+                border: 2px solid white;
+                border-radius: 35px;
+                font-weight: bold;
+                font-size: 1.3em;
+
+        }
+
+    .container-final .icone2 {
+        display: flex;
+        margin: auto;
+        margin-bottom: 5%;
+        flex-flow: column ;
+        justify-content: flex-end;
+        align-items: center;
+
+    }
+
+        .container-final .icone2 p{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            font-family:arial;
+            font-weight: bold;
+            color: white;
+            font-size: 1.3em;
+
+        }
+
+        .container-final .icone2 .compre-2 {
+            display: flex;
+            min-width: 100%;
+
+        }
+
+        .container-final .icone2 a {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            color: #122A57;
+            background-color: white;
+            padding: 0.5em;
+            border: 2px solid white;
+            border-radius: 35px;
+            font-weight: bold;
+            font-size: 1.3em;
+
+    }
+
+        .container-final .icone3 {
+            display: flex;
+            margin: auto;
+            margin-bottom: 5%;
+            flex-flow: column ;
+            justify-content: flex-end;
+            align-items: center;
+
+        }
+
+            .container-final .icone3 p{
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                font-family:arial;
+                font-weight: bold;
+                color: white;
+                font-size: 1.3em;
+
+            }
+
+            .container-final .icone3 .compre-3 {
+                display: flex;
+                min-width: 100%;
+
+            }
+
+            .container-final .icone3 a {
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                color: #122A57;
+                background-color: white;
+                padding: 0.5em;
+                border: 2px solid white;
+                border-radius: 35px;
+                font-weight: bold;
+                font-size: 1.3em;
+
+        }
+
+        /* PARTE DOS PLANOS */
+
+    
+
+    .planos{
+        display: flex;
+        margin: 0px;
+        margin-bottom: 10em;
+        height: 43em;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: space-around;
+
+     }
+
+        .plans {
+            display: flex;
+            font-family: arial;
+            font-size: 4em;
+            font-weight: bold;
+            color: #122A57;
+            width: 100%;
+            margin-left: 6%;
+            align-self: flex-start;
+        }
+
+        .planos .plano-1{
+            display: flex;
+            flex-flow: column;
+            width: 22em;
+            height: 70%;
+            align-items: flex-start;
+            justify-content: flex-end;
+            border: 6px solid #122A57;
+
+        }
+
+        .planos .plano-1 h2 {
+            display: flex;
+            width: 80%;
+            border-bottom: 4px solid #122A57;
+            padding-bottom: 0.8em;
+            justify-content: center;
+            align-self: center;
+            font-family: courier;
+            font-size: 2.5em;
+            font-weight: bold;
+
+        }
+
+            .planos .plano-1 h2 .BRONZE {
+                color: #E1C16E;
+            }
+
+        .planos .plano-1 ul{
+            display: flex;
+            margin-top: 0.5em;
+            margin-bottom: auto;
+            list-style: none;
+            flex-flow: column;
+            padding-left: auto ;
+
+    }
+
+        .planos .plano-1 ul li {
+            display: flex;
+            align-items: center;
+            font-size: 1.5em;
+            font-family: arial;
+
+        }
+
+            .planos .plano-1 ul li::before {
+                content: "\2022";
+                color: #122A57;
+                font-weight: bold;
+                font-size: 1.7em;
+                display: inline-block;
+                width: 1em;
+                margin-left: -0.5em;
+
+            }
+
+        .planos .plano-1 div {
+            display: flex;
+            align-self: center;
+            justify-content: center;
+            min-width: 70%;
+            margin-bottom: 2em;
+        }
+
+        .planos .plano-1 div a {
+            display: flex;
+            width: 100%;
+            font-family: cursive;
+            font-size: 1.6em;
+            justify-content: center;
+            align-items: center;
+            border: 4px solid #122A57;
+            background-color: #122A57;
+            border-radius: 50px;
+            padding: 15px;
+            
+            }
+
+        .planos .plano-2{
+            display: flex;
+            flex-flow: column;
+            width: 22em;
+            height: 85%;
+            align-items: flex-start;
+            justify-content: flex-end;
+            border: 6px solid #122A57;
+
+        }
+
+        .planos .plano-2 h2 {
+            display: flex;
+            width: 80%;
+            border-bottom: 4px solid #122A57;
+            border-top: 0;
+            padding-bottom: 0.8em;
+            padding-top: 20px;
+            margin-top: 0;
+            justify-content: center;
+            align-self: center;
+            font-family: courier;
+            font-size: 2.5em;
+            font-weight: bold;
+
+        }
+
+            .planos .plano-2 h2 .PRATA {
+
+                color: #858585;
+            }
+
+        .planos .plano-2 ul{
+            display: flex;
+            margin-top: 0.5em;
+            margin-bottom: auto;
+            list-style: none;
+            flex-flow: column;
+            padding-left: auto ;
+
+    }
+
+        .planos .plano-2 ul li {
+            display: flex;
+            align-items: center;
+            font-size: 1.5em;
+            font-family: arial;
+
+        }
+
+            .planos .plano-2 ul li::before {
+                content: "\2022";
+                color: #122A57;
+                font-weight: bold;
+                font-size: 1.7em;
+                display: inline-block;
+                width: 1em;
+                margin-left: -0.5em;
+
+            }
+
+            .planos .plano-2 div {
+                display: flex;
+                align-self: center;
+                justify-content: center;
+                min-width: 70%;
+                margin-bottom: 2em;
+            }
+    
+            .planos .plano-2 div a {
+                display: flex;
+                width: 100%;
+                font-family: cursive;
+                font-size: 1.6em;
+                justify-content: center;
+                align-items: center;
+                border: 4px solid #122A57;
+                background-color: #122A57;
+                border-radius: 50px;
+                padding: 15px;
+
+            }
+
+            /*  */
+
+            .planos .plano-3{
+                display: flex;
+                flex-flow: column;
+                max-width: 22em;
+                height: 100%;
+                align-items: flex-start;
+                justify-content: flex-end;
+                border: 6px solid #122A57;
+                flex-grow: 1;
+    
+            }
+    
+            .planos .plano-3 h2 {
+                display: flex;
+                width: 80%;
+                border-bottom: 4px solid #122A57;
+                padding-bottom: 0.8em;
+                justify-content: center;
+                align-self: center;
+                font-family: courier;
+                font-size: 2.5em;
+                font-weight: bold;
+    
+            }
+    
+                .planos .plano-3 h2 .OURO {
+                    color: #ffd700
+                    ;
+                }
+    
+            .planos .plano-3 ul{
+                display: flex;
+                margin-top: 0.5em;
+                margin-bottom: auto;
+                list-style: none;
+                flex-flow: column;
+                padding-left: auto ;
+    
+        }
+    
+            .planos .plano-3 ul li {
+                display: flex;
+                align-items: center;
+                font-size: 1.5em;
+                font-family: arial;
+    
+            }
+    
+                .planos .plano-3 ul li::before {
+                    content: "\2022";
+                    color: #122A57;
+                    font-weight: bold;
+                    font-size: 1.7em;
+                    display: inline-block;
+                    width: 1em;
+                    margin-left: -0.5em;
+    
+                }
+            
+                .planos .plano-3 div {
+                    display: flex;
+                    align-self: center;
+                    justify-content: center;
+                    min-width: 70%;
+                    margin-bottom: 2em;
+                }
+        
+                .planos .plano-3 div a {
+                    display: flex;
+                    width: 100%;
+                    font-family: cursive;
+                    font-size: 1.6em;
+                    justify-content: center;
+                    align-items: center;
+                    border: 4px solid #122A57;
+                    background-color: #122A57;
+                    border-radius: 50px;
+                    padding: 15px;
+                }
+
+        /* RODAPÉ */
+
+    footer {
+        display: flex;
+        width: 100%;
+        height: 6em;
+        background-color: #122A57;
+        flex-flow: row nowrap;
+        align-items: center;
+        
+
+
+    }
+
+        footer .f1 {
+            display: flex;
+            width: 50%;
+            justify-content: center;
+            font-family: Verdana;
+            font-size: 0.9em;
+            color: white;
+        }
+
+        footer .f2 {
+            display: flex;
+            width: 50%;
+            justify-content: center;
+            font-family: Verdana;
+            font-size: 0.9em;
+            color: white;
+        }
+
+            footer .f2 span {
+                font-weight: bolder;
+                font-style: italic;
+            }
+

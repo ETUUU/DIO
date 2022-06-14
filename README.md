@@ -7,3 +7,7 @@
 ♦ Primeiro upload para o GitHub. 
 
 ♦ Adição das pastas "Desafios de código" e "Módulos".
+
+14/06/2022
+
+♦ Upload dos arquivos teste da aula de CSS/Flexbox e do projeto final.

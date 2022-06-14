@@ -11,23 +11,70 @@
     .container{
 
         border: 2px solid black;
-        width: 300px;
-        height: auto;
         display: flex;
-        justify-content:center;
+        margin-top: 10px;
+        width: 250px;
+        max-width: 250px;
+        min-width: 200px;
+        height: 300px;
+        max-height: 300px;
+        min-height: 200px;
+    }
+
+    .container .hor{
+        display: flex;
+        flex-flow: row nowrap;
         align-items: center;
-        margin-left: auto;
-        margin-right: auto;
 
     }
 
-        .item img {
+    .container .vert{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
 
-            height: auto;
-            width: auto;
-            padding: 0;
-            display: block;
+    .hor{
+
+        border: 5px solid black;
+        border-left: 0;
+        border-right: 0 ;
+        background-color: cornflowerblue;
+        margin: auto;
+        margin-left: 0;
+        margin-right: 0;
+        height: 15%;
+        width: 30%;
         
+    }
+
+    .vert1{
+        border: 5px solid black;
+        background-color: cornflowerblue;
+        margin: auto;
+        margin-right: 0;
+        height: 85%;
+        width: 50px;
+
+    }
+
+    .vert2{
+        border: 5px solid black;
+        background-color: cornflowerblue;
+        margin: auto;
+        margin-left: 0;
+        height: 85%;
+        width: 50px;
+        
+
+    }
+
+    .vert1 c{
+        order: 1;
+    }
+
+    .vert1 A{
+        order: 2;
     }
 
     /* ORIENTATIONS */
@@ -41,10 +88,11 @@
                                     <!-- CONTEÚDO -->
 
 <body>
-    <p class="container item">
-
-        <img src="SANTANDER_FULLSTACK.png" alt="aaaaa">
-
-    <p>
+    <div class="container">
+        <div class="vert1">A</div>
+        <div class="hor">b</div>
+        <div class="vert1">c</div>
+    </div>
+    
 
 </body>
