@@ -11,3 +11,7 @@
 14/06/2022
 
 ♦ Upload dos arquivos teste da aula de CSS/Flexbox e do projeto final.
+
+16/06/2022
+
+♦ Adição do segundo desafio de código.
