@@ -1,0 +1,38 @@
+<!-- Palyndrome Checker -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palyndrome Checker</title>
+</head>
+<body>
+    
+</body>
+
+    <script>
+
+        function str(string) {
+            if (!string) return;
+
+            let str = (string.toLowerCase().normalize('NFD').replace(/([\u0300-\u036f]|[^0-9a-zA-Z])/g, '')).split("");
+            let rts = ((string.toLowerCase().normalize('NFD').replace(/([\u0300-\u036f]|[^0-9a-zA-Z])/g, '')).split("").reverse());
+
+            for (let i = 0; i < string.length; i++) {
+                if ((str[i]) !== (rts[i])){
+                    return false;
+                    console.log(i);
+                } else {
+                    return true
+                }
+            }
+
+        }
+
+        str();
+
+    </script>
+
+</html>
